@@ -1,0 +1,24 @@
+https://www.coursera.org/learn/python-visualization/discussions/weeks/4/threads/D7xmEHHjEei99gpJiLeZ7g?sort=createdAtAsc&page=1
+
+You are given two dictionaries:
+
+plot_countries --- {'pr': "PuertoRico", 'no': 'Norway'}
+gdp_countries --- { 'PRI': {dict containing country data for Puerto Rico}, 'NOR': {'dict containing country data for Norway } }
+
+... and you also have one which you have created:
+
+converter --- {'PR': 'PRI', 'NO': 'NOR' }
+
+You must use these three to make a new dict consisting of the items in bold above (the respective dictionary keys):
+
+WHERE:
+key = plot_countries key
+value = gdp_countries key
+{'pr': 'PRI', 'no': 'NOR'}
+
+... But there is one problem: the entries in 'converter' can be in any case: {'Pr': 'prI', 'nO': 'NOr' }, or {'pR': 'Pri', 'no': 'NOR' } , or any other combination.
+
+Figure out a way to do it using only the two-entry dictionaries I've shown here. It should work with any of the 'converter' variations.
+
+Once you have that, you can worry about the empty set.
+
